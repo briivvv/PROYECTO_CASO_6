@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Academia Melodía: Clases de música profesional en Santiago. Cursos de piano, guitarra, violín, canto y más.">
+  <title>Academia de Música Melodía</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h2>Academia Melodía</h2>
+    <nav>
+      <a href="registro.html">Inicio</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#cursos">Cursos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="carousel">
+      <img src="https://blog.musicopolix.com/wp-content/uploads/2021/01/regala-instrumentos-musicales.jpg" alt="Instrumentos musicales">
+      <img src="https://static.vecteezy.com/system/resources/thumbnails/022/350/987/small/piano-keys-at-golden-light-sunset-created-with-generative-ai-photo.jpg" alt="Piano al atardecer">
+      <img src="https://www.txirula.com/modules/dbblog/views/img/post/guitarraespanolaweb.jpg" alt="Guitarra">
+    </div>
+    <h1>Tu pasión por la música empieza aquí</h1>
+  </section>
+
+  <section id="nosotros" class="section">
+    <h2>Sobre Nosotros</h2>
+    <p>En Academia Melodía formamos músicos con pasión, ofreciendo clases profesionales en un ambiente cálido y creativo.</p>
+    <button class="btn-primary">Conócenos</button>
+  </section>
+
+  <section id="cursos" class="section">
+    <h2>Cursos Disponibles</h2>
+    <div class="cards">
+      <!-- Tarjetas de cursos (sin cambios) -->
+      <div class="card">
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/022/350/987/small/piano-keys-at-golden-light-sunset-created-with-generative-ai-photo.jpg" alt="Curso de Piano">
+        <h3>Piano</h3>
+        <p>Clases individuales y grupales. Desde nivel básico hasta avanzado.</p>
+      </div>
+      <!-- ... resto de las tarjetas igual ... -->
+    </div>
+  </section>
+
+  <section id="contacto" class="section">
+    <h2>Contacto</h2>
+    <form action="#" method="post">
+      <div><label for="nombre">Nombre:</label><br><input type="text" id="nombre" name="nombre" required /></div>
+      <div><label for="email">Email:</label><br><input type="email" id="email" name="email" required /></div>
+      <div><label for="mensaje">Mensaje:</label><br><textarea id="mensaje" name="mensaje" rows="5" required></textarea></div><br>
+      <button type="submit" class="btn-primary">Enviar Mensaje</button>
+    </form>
+    <div class="info" style="margin-top:1em;">
+      <p><strong>Email:</strong> contacto@academiamelodia.com</p>
+      <p><strong>Teléfono:</strong> +56 9 1234 5678</p>
+      <p><strong>Dirección:</strong> Calle Falsa 123, Santiago, Chile</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Academia Melodía. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="carousel.js"></script>
+</body>
+</html>
