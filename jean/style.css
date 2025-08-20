@@ -145,3 +145,16 @@ footer {
     flex-direction: column;
   }
 }
+ .btn-back {
+      background-color: #f06c64;
+      color: white;
+      padding: 0.5rem 1rem;
+      text-decoration: none;
+      border-radius: 4px;
+      margin-top: 2rem;
+      display: inline-block;
+    }
+
+    .btn-back:hover {
+      background-color: #e0524e;
+    }
