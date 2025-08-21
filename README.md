@@ -1,5 +1,10 @@
 21-08-2025 
 Documentos:
+carousel.js
+mas-cursos.html
+informacion.html
+style.css
+contacto.html
 index.tml 
 registro.html
 
