@@ -68,22 +68,39 @@
 
     footer p {
       margin: 0;
-    }
+    }   
 
     .highlight {
       font-weight: bold;
       color: #f06c64;
     }
+
+    .btn-back {
+      background-color: #f06c64;
+      color: white;
+      padding: 0.5rem 1rem;
+      text-decoration: none;
+      border-radius: 4px;
+      display: inline-block;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn-back:hover {
+      background-color: #e0524e;
+    }
+
+    .btn-container {
+      display: flex;
+      justify-content: center;
+      margin: 2rem 0;
+    }
   </style>
 </head>
 <body>
   <header>
-    <h2>Academia Melodía</h2>
+    <h2>Academia De Música</h2>
     <nav>
-      <a href="index.html">Inicio</a>
-      <a href="index.html#nosotros">Nosotros</a>
-      <a href="index.html#cursos">Cursos</a>
-      <a href="index.html#contacto">Contacto</a>
+ 
     </nav>
   </header>
 
@@ -95,8 +112,8 @@
       <p>Desde nuestros inicios, nos hemos comprometido a formar músicos integrales, fomentando la disciplina, creatividad y sensibilidad artística. Nuestro método combina clases teóricas, prácticas y presentaciones en vivo.</p>
 
       <div class="gallery">
-        <img src="https://www.rosariosantodomingo.edu.co/wp-content/uploads/2023/09/musica.jpg" alt="Sala de clases">
-        <img src="https://cdn.pixabay.com/photo/2016/11/29/04/17/music-1869723_1280.jpg" alt="Ensayo musical">
+        <img src="https://escolamusicamoderna.es/wp-content/uploads/web-escola-musica-moderna-instalaciones-4-nuevas-06.jpg" alt="Sala de clases">
+        <img src="https://www.diariomendozasur.com/wp-content/uploads/2022/06/pou2-1024x682.jpg" alt="Ensayo musical">
         <img src="https://www.rosariosantodomingo.edu.co/wp-content/uploads/2023/09/musica.jpg" alt="Alumnos practicando">
       </div>
 
@@ -127,9 +144,19 @@
     </section>
   </main>
 
+  <!-- Botón centrado -->
+  <div class="btn-container">
+    <a href="index.html#cursos" class="btn-back">← Volver al Inicio</a>
+  </div>
+
+ </section>
   <footer>
-    <p>© 2025 Academia Melodía. Todos los derechos reservados.</p>
+     <h2>🎼 Sobre Nosotros</h2>
+     <span class="resaltado">Academia Melodía</span> creemos que 
+    <span class="frase">la música transforma vidas</span> y despierta el alma. 
+    <br>🎶 <strong>¡Tu camino musical comienza hoy!</strong> 🎵🎹
   </footer>
+
+  <script src="carousel.js"></script>
 </body>
 </html>
-s
