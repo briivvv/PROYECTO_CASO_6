@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contactos - Academia Melodía</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #f06c64;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    nav {
+      margin-top: 1rem;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background-color: white;
+      border-radius: 8px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      justify-content: center;
+    }
+
+    h2 {
+      width: 100%;
+      color: #333;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+
+    .contacto {
+      width: 250px;
+      height: 250px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      background-color: #fdfdfd;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 1rem;
+      box-sizing: border-box;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .contacto:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 12px rgba(240,108,100,0.5);
+    }
+
+    .contacto img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 2px solid #f06c64;
+      margin-top: auto;
+    }
+
+    .contacto-info {
+      flex: 1 0 auto;
+    }
+
+    .contacto h3 {
+      margin: 0.5rem 0 0.25rem 0;
+      color: #f06c64;
+    }
+
+    .contacto p {
+      margin: 0.15rem 0;
+      font-size: 0.9rem;
+      color: #555;
+    }
+
+    /* Contenedor para centrar el botón */
+    .btn-container {
+      max-width: 900px;
+      margin: 2rem auto;
+      text-align: center;
+    }
+
+    .btn-back {
+      background-color: #f06c64;
+      color: white;
+      padding: 0.5rem 1rem;
+      text-decoration: none;
+      border-radius: 4px;
+      font-weight: bold;
+      font-size: 1.1rem;
+      display: inline-block;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn-back:hover {
+      background-color: #e0524e;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+      background-color: #333;
+      color: white;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      main {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .contacto {
+        width: 90%;
+        height: auto;
+        padding-bottom: 2rem;
+      }
+
+      .contacto img {
+        margin-top: 1rem;
+      }
+    }
+
+ footer {
+  background: linear-gradient(135deg, #000000, #003366, #006400); /* Negro → Azul oscuro → Verde oscuro */
+  color: #ffffff;
+  text-align: center;
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+footer h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #FFD700; /* Dorado */
+}
+
+footer p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+footer .resaltado {
+  color: #00bcd4; /* Azul brillante */
+  font-weight: bold;
+}
+
+footer .frase {
+  color: #4caf50; /* Verde esperanza */
+  font-style: italic;
+}
+
+
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Academia De Música</h1>
+  </header>
+
+  <main>
+    <h2>Contactos del Equipo Académico</h2>
+
+    <div class="contacto">
+      <div class="contacto-info">
+        <h3>Juan Pérez</h3>
+        <p><strong>Director de la Academia</strong></p>
+        <p>Email: juan.perez@academiamelodia.cl</p>
+        <p>Teléfono: +56 9 1234 5678</p>
+      </div>
+      <img src="https://estaticos-cdn.prensaiberica.es/clip/a7852cb5-cc78-43da-b981-94ecc5110e5e_source-aspect-ratio_default_0.jpg" alt="Juan Pérez" />
+    </div>
+
+    <div class="contacto">
+      <div class="contacto-info">
+        <h3>María López</h3>
+        <p><strong>Profesora de Piano</strong></p>
+        <p>Email: maria.lopez@academiamelodia.cl</p>
+      </div>
+      <img src="https://img.freepik.com/foto-gratis/mujer-joven-hermosa-sueter-rosa-calido-aspecto-natural-sonriente-retrato-aislado-cabello-largo_285396-896.jpg?semt=ais_hybrid&w=740&q=80" alt="María López" />
+    </div>
+
+    <div class="contacto">
+      <div class="contacto-info">
+        <h3>Carlos Torres</h3>
+        <p><strong>Profesor de Guitarra</strong></p>
+        <p>Email: carlos.torres@academiamelodia.cl</p>
+      </div>
+      <img src="https://tocaruninstrumento.com/wp-content/uploads/profesor-de-guitarra-fernando-rivas-1024x683-optimized.jpg" alt="Carlos Torres" />
+    </div>
+
+    <div class="contacto">
+      <div class="contacto-info">
+        <h3>Lucía Rojas</h3>
+        <p><strong>Profesora de Violín</strong></p>
+        <p>Email: lucia.rojas@academiamelodia.cl</p>
+      </div>
+      <img src="https://mipequenoviolin.com/wp-content/uploads/2020/10/Laura-Martin-Losa3.jpg" alt="Lucía Rojas" />
+    </div>
+
+    <div class="contacto">
+      <div class="contacto-info">
+        <h3>David Sánchez</h3>
+        <p><strong>Profesor de Trompeta</strong></p>
+        <p>Email: david.sanchez@academiamelodia.cl</p>
+      </div>
+      <img src="https://academiadevientometal.com/wp-content/uploads/2020/05/profe-raul-junquera.jpg" alt="David Sánchez" />
+    </div>
+    
+  </main>
+
+  <div class="btn-container">
+    <a href="index.html#cursos" class="btn-back">← Volver al Inicio</a>
+  </div>
+
+</section>
+  <footer>
+     <h2>🎼 Sobre Nosotros</h2>
+     <span class="resaltado">Academia Melodía</span> creemos que 
+    <span class="frase">la música transforma vidas</span> y despierta el alma. 
+    <br>🎶 <strong>¡Tu camino musical comienza hoy!</strong> 🎵🎹
+  </footer>
+
+  <script src="carousel.js"></script>
+</body>
+</html>
