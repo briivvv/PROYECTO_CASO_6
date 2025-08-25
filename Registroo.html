@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Registro - Academia de Música</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+      margin: 0;
+      padding: 0;
+
+      /* Imagen de fondo */
+      background-image: url('https://img.freepik.com/fotos-premium/grupo-estudiantes-practicando-actuacion-juntos_1324785-123003.jpg?semt=ais_hybrid&w=740&q=80');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+
+    header {
+      background-color: #4a148c;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    nav a {
+      color: #ffccff;
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+
+    .section {
+      background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semi-transparente */
+      max-width: 500px;
+      margin: 2rem auto;
+      padding: 2rem;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+
+    form div {
+      margin-bottom: 1.2rem;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 0.3rem;
+      font-weight: bold;
+    }
+
+    input, select {
+      width: 100%;
+      padding: 0.6rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 1rem;
+    }
+
+    .btn-primary {
+      background-color: #4a148c;
+      color: white;
+      border: none;
+      padding: 0.8rem 1.5rem;
+      font-size: 1rem;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .btn-primary:hover {
+      background-color: #6a1b9a;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h2>Registro en Academia de Música</h2>
+    <nav>
+      <a href="index.html">Volver al Inicio</a>
+    </nav>
+  </header>
+
+  <section class="section">
+    <h2>Regístrate</h2>
+    <p>Completa tus datos para inscribirte en nuestros cursos.</p>
+    <form action="#" method="post">
+      <div>
+        <label for="nombre">Nombre completo:</label>
+        <input type="text" id="nombre" name="nombre" required autocomplete="name" />
+      </div>
+      <div>
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required autocomplete="email" />
+      </div>
+      <div>
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" required autocomplete="tel" />
+      </div>
+      <div>
+        <label for="curso">Curso de interés:</label>
+        <select id="curso" name="curso" required>
+          <option value="">Selecciona un curso</option>
+          <option value="piano">Piano</option>
+          <option value="guitarra">Guitarra</option>
+          <option value="vocalizacion">Vocalización</option>
+          <option value="violin">Violín</option>
+          <option value="trompeta">Trompeta</option>
+        </select>
+      </div>
+      <div style="text-align: center;">
+        <button type="submit" class="btn-primary">Registrarme</button>
+      </div>
+    </form>
+  </section>
+
+</body>
+</html>
